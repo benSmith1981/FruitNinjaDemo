@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameHandler : MonoBehaviour
 {
-    string helloMessage = "Hello";
+    string helloMessage = "Hello there!";
     int score = 0;
 
     public Sprite[] foodSprites;
