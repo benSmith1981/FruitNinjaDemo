@@ -12,13 +12,11 @@ public class GameHandler : MonoBehaviour
     //public Text currentScore;
     //public Text gameMessage;
 
-    CanvasScript newCanvas;
 
     // Start is called before the first frame update
     void Start()
     {
         //we get the script that is a component of GameHandler
-        newCanvas = GetComponent<CanvasScript>();
     }
 
     // Update is called once per frame
@@ -42,16 +40,11 @@ public class GameHandler : MonoBehaviour
             food.AddComponent<Rigidbody2D>();
             food.AddComponent<BoxCollider2D>();
 
-            updateScoreTextInGame();
         }
     }
 
     void updateScoreTextInGame()
     {
-        if (score % 100 == 0)
-        {
-            newCanvas.showInGameMessage("WOW!", newCanvas.gameMessage);
-        }
         newCanvas.currentScore.text = "Score: " + score++;
     } 
 
