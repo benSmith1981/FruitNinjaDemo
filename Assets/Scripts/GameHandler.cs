@@ -9,16 +9,13 @@ public class GameHandler : MonoBehaviour
     int score = 0;
 
     public Sprite[] foodSprites;
-    //public Text currentScore;
-    //public Text gameMessage;
+    public Text currentScore;
+    public Text gameMessage;
 
-    CanvasScript newCanvas;
 
     // Start is called before the first frame update
     void Start()
     {
-        //we get the script that is a component of GameHandler
-        newCanvas = GetComponent<CanvasScript>();
     }
 
     // Update is called once per frame
@@ -50,9 +47,10 @@ public class GameHandler : MonoBehaviour
     {
         if (score % 100 == 0)
         {
-            newCanvas.showInGameMessage("WOW!", newCanvas.gameMessage);
+            gameMessage.text = "WOW!";
         }
-        newCanvas.currentScore.text = "Score: " + score++;
+
+        currentScore.text = "Score: " + score++;
     } 
 
 }

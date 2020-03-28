@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{B48EEE69-0369-F539-CF79-BD79B43DEA88}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameHandler.cs">
     <Files>
-      <File FileName="Assets/Scripts/CanvasScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BananaAnimator.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameHandler.cs" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eb1641ad-0f8e-4b7f-b827-2d7902266a52" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b21866ff-18d3-44a2-9258-80ce5c71b5f0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -63,8 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BananaAnimator.cs" />
-    <Compile Include="Assets\Scripts\CanvasScript.cs" />
     <Compile Include="Assets\Scripts\GameHandler.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/bensmith/Documents/GitHub/FruitNinjaDemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
