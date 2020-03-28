@@ -39,18 +39,56 @@ public class GameHandler : MonoBehaviour
             food.AddComponent<Rigidbody2D>();
             food.AddComponent<BoxCollider2D>();
 
-            updateScoreTextInGame();
+
+        }
+        updateScore(1);
+        updateGameMessage();
+    }
+
+    void updateScore(int amountToAdd)
+    {
+        score = score + amountToAdd;
+        Debug.Log("updateScore" + score);
+        currentScore.text = "Score: " + score;
+    }
+
+    void updateGameMessage()
+    {
+        Debug.Log("updateGameMessage");
+
+        if (shouldUpdateGameMessage())
+        {
+            Debug.Log("Show Score");
+
+            gameMessage.text = determineGameMessage();
+            gameMessage.enabled = true;
+            Invoke("hideMessage", 1f);
         }
     }
 
-    void updateScoreTextInGame()
+    bool shouldUpdateGameMessage()
     {
-        if (score % 100 == 0)
-        {
-            gameMessage.text = "WOW!";
-        }
+        return (score % 100 == 0) || (score < 100);
+    }
 
-        currentScore.text = "Score: " + score++;
-    } 
+    void hideMessage()
+    {
+        gameMessage.enabled = false;
+    }
+
+    string determineGameMessage()
+    {
+        Debug.Log("determineGameMessage");
+
+        if (score < 100)
+        {
+            return "Keep Going! " + score;
+        } else if(score >= 100)
+        {
+            return "Well done! Great score " + score;
+        }
+        Debug.Log("DEFAULT");
+        return "DEFAULT";
+    }
 
 }
