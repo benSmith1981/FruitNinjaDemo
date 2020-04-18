@@ -1,7 +1,11 @@
 ﻿<Properties StartupConfiguration="{B48EEE69-0369-F539-CF79-BD79B43DEA88}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnitySpriteCutter/SpriteCutter.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameHandler.cs" Line="75" Column="6" />
+      <File FileName="Assets/Scripts/GameHandler.cs" Line="58" Column="1" />
+      <File FileName="Assets/Blade.cs" Line="43" Column="25" />
+      <File FileName="Assets/Fruit.cs" Line="50" Column="50" />
+      <File FileName="Assets/Scripts/LinecastCutterBehaviour.cs" Line="42" Column="57" />
+      <File FileName="Assets/Scripts/UnitySpriteCutter/SpriteCutter.cs" Line="9" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,7 +13,10 @@
           <Node name="FruitNinjaDemo" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="GameHandler.cs" selected="True" />
+                <Node name="UnitySpriteCutter" expanded="True">
+                  <Node name="Cutters" expanded="True" />
+                  <Node name="SpriteCutter.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -19,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b21866ff-18d3-44a2-9258-80ce5c71b5f0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fdf0aa75-2df3-4262-a24a-d3b1c357fd43" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
